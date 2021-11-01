@@ -4,14 +4,18 @@ import {slide as Menu} from 'react-burger-menu';
 import {Link,withRouter} from 'react-router-dom';
 
 class NavBar extends React.Component {
-    state = {}
+    
+
     render() {
+        
+        // const {location} = this.props;
         const {location} = this.props;
-        const homeClass = location.pathname === '/' ? 'active-item': '';
-        const aboutClass = location.pathname === '/about' ? 'active-item': '';
-        const projectsClass = location.pathname === '/projects' ? 'active-item': '';
-        const skillsClass = location.pathname === '/skills' ? 'active-item': '';
-        const contactClass = location.pathname === '/contact' ? 'active-item': '';
+   
+        const homeClass = this.props.pathname === '/' ? 'active-item': '';
+        const aboutClass = this.props.pathname === '/about' ? 'active-item': '';
+        const projectsClass = this.props.pathname === '/projects' ? 'active-item': '';
+        const skillsClass = this.props.pathname === '/skills' ? 'active-item': '';
+        const contactClass = this.props.pathname === '/contact' ? 'active-item': '';
         return ( 
             <Menu>
                 {/* we never want to use <a> tag inside react router application */}
