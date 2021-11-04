@@ -12,7 +12,7 @@ class GoHome extends Component{
     navigateToHome = () => {
         
     //   const {history} = this.props;
-    
+        
     //       window.history.push('/');
     
      
@@ -23,8 +23,8 @@ class GoHome extends Component{
         const whiteBtn = window.location.pathname ==='/';
 
         return (
-            <button onClick={this.navigateToHome}>
-                <img className="go-home-btn" src={whiteBtn ? homeIconBlack : homeIconWhite} alt="home-icon"></img>
+            <button className={`go-home-btn ${whiteBtn ? 'white-bkg' : 'gradient-bkg'}`} onClick={this.navigateToHome}>
+                <img className='home-icon'  src={whiteBtn ? homeIconBlack : homeIconWhite} alt="home-icon"></img>
             </button>
          );
     }
