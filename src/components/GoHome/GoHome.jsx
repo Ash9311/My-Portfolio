@@ -14,13 +14,14 @@ class GoHome extends Component{
     //   const {history} = this.props;
         
     //       window.history.push('/');
-    
+    const { history } = this.props;
+    history.push('/');
      
     }
 
     render(){
-        //const {window.location} = this.props;
-        const whiteBtn = window.location.pathname ==='/';
+    const {location} = this.props;
+        const whiteBtn = location.pathname ==='/';
 
         return (
             <button className={`go-home-btn ${whiteBtn ? 'white-bkg' : 'gradient-bkg'}`} onClick={this.navigateToHome} >
@@ -30,4 +31,9 @@ class GoHome extends Component{
     }
 }
 
-export default GoHome;
+export default withRouter(GoHome);
+
+
+
+
+
