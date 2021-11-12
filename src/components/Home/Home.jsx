@@ -2,13 +2,19 @@ import React, {Component} from "react";
 import {Link} from 'react-router-dom';
 import './Home.css';
 import homeAnime from './../../assets/home_anime.gif';
+import myPic from './../../assets/ashutosh.webp';
+import Modal from '../Modal/Modal';
 class Home extends Component{
     render(){
         return (
             <div className="home-container">
+                <Modal />
                 <div className="header-text">
                     <h1>Welcome to my portfolio!</h1>
                     <p>This is Ashutosh, a Software Engineer</p>
+                </div>
+                <div className="splash-image">
+                    <img src={myPic} alt="myPic" className="myPic"/>
                 </div>
 
                 <div className="head-btns">

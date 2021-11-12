@@ -94,8 +94,15 @@
     align-items: center;
 }
 
+.myPic{
+   width:200px;
+   margin: 10px;
+
+}
+
 .home-anime{
     margin-bottom: -80px;
+    margin-top: -40px;
 }
 
 /* for small screens */
