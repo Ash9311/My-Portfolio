@@ -27,7 +27,7 @@
     margin: 10px 0;
 }
 
-@media only screen and (max-width: 640){
+@media only screen and (max-width: 640px){
     .header-container{
         width: 80%;
     }
@@ -37,7 +37,7 @@
         line-height: 1.2em;
     }
 
-    
+
 }
 
 
