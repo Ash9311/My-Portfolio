@@ -13,11 +13,8 @@ const About= () => {
 
     <div className="about-main">
         <div className="about-main-left">
-
-        </div>
-        <div className="about-main-right">
-            {/* sub section 1 */}
-            <div className="about-sub-head">
+              {/* sub section 1 */}
+              <div className="about-sub-head">
                 Software Engineer at Accenture
             </div>
             <p className="about-details">
@@ -46,6 +43,11 @@ Thanks to well balanced curriculum that i got ample time to dive into different 
             I often post videos where i discuss and solve interesting coding problems and also it consists
             of projects that i had done in my college days. Check it out <a className='about-link-element' href='https://m.youtube.com/channel/UC2RYDAMhUoi8mG-RxAsDlYw'> here</a> 
             </p>
+
+        </div>
+        <div className="about-main-right">
+          
+          <img src={aboutAnime} alt="animation" className="about-anime" />
 
         </div>
     </div>
