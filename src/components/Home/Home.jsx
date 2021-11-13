@@ -8,7 +8,7 @@ class Home extends Component{
     render(){
         return (
             <div className="home-container">
-                <Modal />
+                {/* <Modal /> */}
                 <div className="header-text">
                     <h1>Welcome to my portfolio!</h1>
                     <p>This is Ashutosh, a Software Engineer</p>
