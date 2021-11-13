@@ -15,12 +15,10 @@ const Skills = () => {
 
             <div className="skill-card-container">
                 {
-                    skillList.map(({skillName,skillUrl}) => {
-                        
-                        return( 
+                    skillList.map(({skillName,skillUrl}) =>
                         <SkillCard skillName={skillName} skillUrl={skillUrl} />
-                        );
-                    })}
+                       
+                    )}
                 
             </div>
 

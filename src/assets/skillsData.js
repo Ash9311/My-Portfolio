@@ -13,7 +13,7 @@ export const skillList = [
     },
     {
         skillName: 'React',
-        skillUrl: 'https://drive.google.com/file/d/1Qi-h7n98mQg0umTOBINX3U0_FY2oobY1/view?usp=sharing',
+        skillUrl: 'https://madhavbahl.tech/portfolio-assets/react.png',
     },
   
     {
@@ -22,7 +22,7 @@ export const skillList = [
     },
     {
         skillName: 'TypeScript',
-        skillUrl: 'https://drive.google.com/file/d/1qMewMJyNp8ZzCNghusUvv3skUhlpccNF/view?usp=sharing',
+        skillUrl: 'https://madhavbahl.tech/portfolio-assets/ts.png',
     },
     {
         skillName: 'Java',
