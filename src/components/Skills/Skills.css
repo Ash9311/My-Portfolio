@@ -1,0 +1,25 @@
+
+
+
+
+.skills-vector-frame{
+    position: absolute;
+    display: flex;
+    right: 0;
+    bottom: 0;
+    flex-direction: row-reverse;
+    z-index: -10;
+    width: 80%;
+}
+
+.skills-vector{
+    max-height: 100%;
+    width: 100%;
+}
+
+/* small screen size */
+@media only screen and (max-width: 640px){
+    .skills-vector-frame{
+        width: 90%;
+    }
+}
