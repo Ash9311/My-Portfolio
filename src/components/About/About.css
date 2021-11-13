@@ -1,3 +1,15 @@
+
+.about-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 60px 80px 80px 80px;
+}
+
+.about-main-left,.about-main-right {
+    width:50%;
+}
+
 .vector-frame {
     position: absolute;
     z-index: -10;
