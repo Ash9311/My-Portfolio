@@ -4,6 +4,7 @@ import Header from "../Header/Header";
 import './Skills.css';
 import skillsVector from './../../assets/skills_vector.png';
 import {skillList} from './../../assets/skillsData';
+import SkillCard from './SkillCard';
 
 const Skills = () => {
     return(
@@ -14,10 +15,13 @@ const Skills = () => {
 
             <div className="skill-card-container">
                 {
-                    skillList.map(skill => {
-                        return <h1>{skill.skillName}</h1>
-                    })
-                }
+                    skillList.map(({skillName,skillUrl}) => {
+                        
+                        return( 
+                        <SkillCard skillName={skillName} skillUrl={skillUrl} />
+                        );
+                    })}
+                
             </div>
 
             <FooterLink phrase="Get in " link="touch." toAdress="/contact" />

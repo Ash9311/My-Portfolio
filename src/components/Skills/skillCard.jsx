@@ -1,7 +1,7 @@
 import react from "react";
-import './skills.css' 
+import './Skills.css' 
 
-const skillCard = ({skillName,skillUrl}) => {
+const SkillCard = ({skillName,skillUrl}) => {
     return (
         <div className="skill">
             <img src = {skillUrl} alt="skill" />
@@ -9,3 +9,4 @@ const skillCard = ({skillName,skillUrl}) => {
         </div>
     )
 }
+export default SkillCard;
