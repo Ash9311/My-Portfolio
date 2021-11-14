@@ -3,6 +3,7 @@ import FooterLink from "../FooterLink/FooterLink";
 import Header from "../Header/Header";
 import './Projects.css';
 import { projectsData } from "../../assets/projectsData";
+import ProjectCard from './ProjectCard';
 
 const Projects = () => {
     return(
@@ -11,8 +12,20 @@ const Projects = () => {
 
             <div className="project-cards-container">
                 {
-                    projectsData.map(project => {
-                        return <h1>{project.projectName}</h1>
+                    projectsData.map(({
+                    projectName,
+    projectDescription,
+    imageUrl,
+    videoUrl,
+    projectUrl,
+                })      => {
+                         
+                        return <ProjectCard
+                            projectName={projectName}
+                            projectDescription={projectDescription}
+                            projectUrl={projectUrl}
+                            imageUrl={imageUrl}
+                            videoUrl={videoUrl} />
                     })
                 }
             </div>
