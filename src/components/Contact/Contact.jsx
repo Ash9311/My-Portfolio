@@ -17,6 +17,21 @@ const Contact = () => {
             
             />
 
+            {/* Form section */}
+            <div className="contact-form-container">
+
+                <form className="contact-form">
+                    {/* email id input */}
+                    <input type="email" placeholder="Your Email ID" name="email" className="input-box email-input" />
+
+                {/* email body */}
+                <textarea type="text" placeholder="Your Message" name="message" className="input-box body-input"></textarea>
+
+                {/* submit button */}
+                <button type="submit" className="contact-btn">Send Email</button>
+                </form>
+            </div>
+
             {/* social icons */}
 
             <div className="social-icons-container">
