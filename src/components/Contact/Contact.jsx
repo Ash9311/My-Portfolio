@@ -16,6 +16,15 @@ const Contact = () => {
             details="Interested to collaborate? Feel free to drop me an email"
             
             />
+
+            {/* social icons */}
+
+            <div className="social-icons-container">
+                <a href="https://github.com/Ash9311" className="social-icon"><img src={github} alt="social"/></a>
+                <a href="https://www.linkedin.com/in/ashutosh-mulky-6175b615a/" className="social-icon"><img src={linkedin} alt="social"/></a>
+                <a href="https://www.instagram.com/ash_1110/" className="social-icon"><img src={instagram} alt="instagram"/></a>
+            </div>
+
             <FooterLink phrase="Read mode " toAdress="/about" link="about me"/>
 
             <div className="vector-frame">
