@@ -14,9 +14,9 @@ const About= () => {
     <div className="about-main">
         <div className="about-main-left">
               {/* sub section 1 */}
-              <div className="about-sub-head">
+              <h3 className="about-sub-head">
                 Software Engineer at Accenture
-            </div>
+            </h3>
             <p className="about-details">
             -Developed Web Application and component strategy in line with the business strategy(Angular,Nodejs,MongoDB,typeScript,C#).
 -Baked technology trends into solutions.
@@ -25,9 +25,9 @@ const About= () => {
             </p>
 
              {/* sub section 2 */}
-             <div className="about-sub-head">
+             <h3 className="about-sub-head">
                 Education
-            </div>
+            </h3>
             <p className="about-details">
             I did my Engineering in <a className='about-link-element' href='https://nmamit.nitte.edu.in/'> N.M.A.M Instite of Technology</a>. Spent wonderful 4 years at this institute.Developed problem solving skills significantly.
 Thanks to well balanced curriculum that i got ample time to dive into different domain and explore new ventures.
@@ -36,9 +36,9 @@ Thanks to well balanced curriculum that i got ample time to dive into different 
 
 
              {/* sub section 3 */}
-             <div className="about-sub-head">
+             <h3 className="about-sub-head">
                 Content creator on YouTube
-            </div>
+            </h3>
             <p className="about-details">
             I often post videos where i discuss and solve interesting coding problems and also it consists
             of projects that i had done in my college days. Check it out <a className='about-link-element' href='https://m.youtube.com/channel/UC2RYDAMhUoi8mG-RxAsDlYw'> here</a> 
