@@ -2,7 +2,7 @@ export const projectsData = [
     {
         projectName: 'Blog-Site',
         projectDescription:
-            'A blogging page where the user can post his/her blogs and perform several operations. designed using HTML, CSS, javaScript followed by nodeJs,expressJs.',
+            'A blogging page where the user can post his/her blogs and perform several operations. designed using HTML, CSS, javaScript followed by node.js,express.js.',
         imageUrl: 'https://github.com/Ash9311/My_Portfolio/blob/main/assets/blog-site.png?raw=true',
         videoUrl:
             'https://www.youtube.com/playlist?list=PLGyA74h_S9NqJvvQ7-l9bUHHS6bMCkgo0',
